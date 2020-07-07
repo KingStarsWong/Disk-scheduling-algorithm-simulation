@@ -17,6 +17,7 @@ qt中配置可参考[QT5入门之32-QCustomPlot](https://blog.csdn.net/a37903923
 将下载的`qcustomplot.cp` & `qcustomplot.h`导入源文件文件夹中
 
 在工程的pro文件的第9行末尾加入：`printsupport`，如下：
+
 `greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport`
 （可参考QT_source下pro文件查看）
 
